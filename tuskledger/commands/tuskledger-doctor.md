@@ -31,7 +31,7 @@ the repo; this command just invokes it and interprets the result.
      - `backend/.env` exists and has `PLAID_CLIENT_ID` set
      - `backend/.encryption_key` is chmod 600
      - Port 8000 free (`lsof -i :8000`)
-     - Port 5173 free (`lsof -i :5173`)
+     - Port 3000 free (`lsof -i :3000`)
      - Alembic head matches DB version (`./venv/bin/alembic current`)
      - Ollama reachable at 127.0.0.1:11434 IF `LLM_ENABLED=true` in .env
 

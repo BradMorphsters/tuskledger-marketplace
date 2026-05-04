@@ -90,7 +90,7 @@ cd <install-path>
 ./start.sh
 ```
 
-Open http://127.0.0.1:5173 in the browser. The user should see either:
+Open http://127.0.0.1:3000 in the browser. The user should see either:
 
 - The **Login screen** (if they didn't set `DEV_BYPASS_AUTH=true`), where
   they create their initial email/password + TOTP MFA, OR
@@ -121,7 +121,7 @@ On Apple Silicon a narrative renders in 5-15 seconds. On Intel, drop to
 
 - If `pip install` errors on `cffi` / `cryptography` (macOS): the user is
   missing Xcode CLI tools — `xcode-select --install`.
-- If port 8000 or 5173 is in use: `lsof -i :8000` to find the conflict.
+- If port 8000 or 3000 is in use: `lsof -i :8000` (or `lsof -i :3000`) to find the conflict.
 - The auto-backup script keeps daily SQLite snapshots in `backend/backups/`.
   Grows ~500 KB/day; the user should know but doesn't need to act.
 - Plaid free tier: 100 connected items. For one household that's
