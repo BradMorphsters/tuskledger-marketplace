@@ -42,7 +42,7 @@ above; default to `~/Documents/tuskledger` otherwise).
 6. **First run.**
    - `cd <target> && ./start.sh` (or run backend + frontend in separate
      terminals if start.sh isn't present)
-   - Open http://127.0.0.1:5173 in the browser.
+   - Open http://127.0.0.1:3000 in the browser.
    - The user should land on the Login screen (or the Dashboard if
      `DEV_BYPASS_AUTH=true` was set in .env).
 
@@ -64,6 +64,6 @@ Mention these next steps without doing them:
 
 - If `pip install` fails on `cffi` or `cryptography`, the user is missing
   Xcode command-line tools (macOS): `xcode-select --install`.
-- If port 8000 or 5173 is already in use, the dev servers will fail
-  silently — `lsof -i :8000` to identify the conflict.
+- If port 8000 or 3000 is already in use, the dev servers will fail
+  silently — `lsof -i :8000` (or `lsof -i :3000`) to identify the conflict.
 - The backups folder grows ~500KB/day. Mention but don't act on it.
