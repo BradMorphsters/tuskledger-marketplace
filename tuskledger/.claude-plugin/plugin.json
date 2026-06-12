@@ -1,7 +1,7 @@
 {
   "name": "tuskledger",
-  "version": "0.1.0",
-  "description": "Local-first personal finance app: Plaid bank sync into a SQLite file on your laptop, FastAPI + React UI, optional local Ollama for AI Insights and the in-app Ask panel. This Cowork plugin bundles the tuskledger-mcp server (so your AI assistant gets typed access to your data via 13 read-only tools) plus slash commands for guided install and environment health checks.",
+  "version": "0.2.0",
+  "description": "Local-first personal finance app: Plaid bank sync into a SQLite file on your laptop, FastAPI + React UI, optional local Ollama for AI Insights and the in-app Ask panel. This Cowork plugin bundles the tuskledger-mcp server (so your AI assistant gets typed access to your data via 17 read-only tools) plus slash commands for guided install and environment health checks.",
   "author": {
     "name": "BradMorphsters",
     "url": "https://github.com/BradMorphsters"

@@ -10,7 +10,7 @@
     {
       "name": "tuskledger",
       "source": "./tuskledger",
-      "description": "Bundles the tuskledger-mcp server (typed read access to your local Tusk Ledger data via 13 tools) plus slash commands for guided install (/tuskledger-install) and environment health checks (/tuskledger-doctor). Adding this plugin means your AI assistant can answer 'how much did I spend on coffee last month' and 'is my .env wired up correctly' against your real local data — no cloud, no proxy, no copying secrets into a chat.",
+      "description": "Bundles the tuskledger-mcp server (typed read access to your local Tusk Ledger data via 17 tools) plus slash commands for guided install (/tuskledger-install) and environment health checks (/tuskledger-doctor). Adding this plugin means your AI assistant can answer 'how much did I spend on coffee last month' and 'is my .env wired up correctly' against your real local data — no cloud, no proxy, no copying secrets into a chat.",
       "version": "0.1.0",
       "keywords": [
         "personal-finance",

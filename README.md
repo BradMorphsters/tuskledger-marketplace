@@ -19,7 +19,7 @@ This marketplace currently ships one plugin: **tuskledger**.
   to try tuskledger").
 - **MCP server (auto-wired)** — bundles the `tuskledger-mcp` PyPI
   package so your AI assistant gets typed access to your local Tusk
-  Ledger data via 13 read-only tools (`list_accounts`,
+  Ledger data via 17 read-only tools (`list_accounts`,
   `query_transactions`, `get_holdings`, `get_retirement_projection`,
   and more). No cloud, no proxy, no copying secrets into chat. Runs
   locally over stdio.
